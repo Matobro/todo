@@ -1,5 +1,7 @@
 .App {
   text-align: center;
+  background-color: black;
+  color: black;
 }
 
 .App-logo {
@@ -14,7 +16,7 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  background-color: black;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -26,6 +28,26 @@
 
 .App-link {
   color: #61dafb;
+}
+
+.body {
+  background-color: black;
+}
+
+.list {
+  background-color: black;
+  color: rgb(27, 165, 184);
+}
+.button-red {
+  color: #ca0000;
+}
+
+.button-green {
+  color: #09ff00;
+}
+
+.task-completed {
+  color: #09ff00;
 }
 
 @keyframes App-logo-spin {
